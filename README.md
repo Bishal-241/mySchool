@@ -7,3 +7,4 @@ Installation{
 }
 
 
+site-url--> https://bishal-241.github.io/mySchool/src
