@@ -1,0 +1,14 @@
+/* .hero{
+    height: 80%;
+    width: 100%;
+    background-image: url(../img/school1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+/* } */
+
+.mainimg{
+    height: auto;
+    width: 100%;
+    size: cover;
+}
