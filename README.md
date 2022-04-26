@@ -8,3 +8,6 @@ Installation{
 
 
 site-url--> https://bishal-241.github.io/mySchool/src
+
+
+Check netlify hosting :   pokhariyaschool.netlify.app
