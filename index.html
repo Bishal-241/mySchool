@@ -9,6 +9,10 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="../src/mycss/cssa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
     <style>
         .cap {
             text-transform: uppercase;
@@ -96,8 +100,14 @@
 
         .headsirDiscription {
             border-radius: 50px;
+        } 
+        .principle{
+            font-family: 'Montserrat',sans-serif;
         }
+
+        
     </style>
+
     <script>
         var color1 = 'bg-cyan-500';
         let a = document.getElementsByClassName('bg-color1');
@@ -108,9 +118,10 @@
         }
 
     </script>
+
 </head>
 
-<body class="bg-gray-50">
+<body class="bg-gray-50 principle">
 
     <nav class="bg-zinc-50 p-5 shadow md:flex md:items-center md:justify-between">
         <div class="justify-between flex items-center ">
@@ -126,16 +137,15 @@
         <ul
             class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top[-400px] transition-all ease-in duration-500">
             <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">Home</a></li>
-            <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">About-us</a>
+            <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">team</a>
             </li>
-            <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">Team</a></li>
-            <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">Contact</a>
+            <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">Gallery</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="#" class="text-xl hover:text-cyan-500 duration-500 cap">News</a>
             </li>
 
 
             <button
-                class="bg-sky-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-sky-400 rounded font-bold">Learn
-                More</button>
+                class="bg-sky-600 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-sky-400 rounded font-bold">Contact us</button>
 
         </ul>
     </nav>
@@ -148,17 +158,23 @@
     <h3 class="text-center text-2xl p-5">Fig: Shree Pokhariya Secondary School</h3>
 
 
-    <div>
-        <div class="headTeacher grid-cols-2 gap-x-7 bg-green-400 flex p-5 sm:grid-rows-2 md:grid-rows-2 ">
-            <div class="img px-12"><img src="src/img/hamroHeadTeacher.jpeg" alt="Principal of Pokhariya rounded-md">
+    <div class="bg-green-400">
+        <div>
+            <h3 class="text-2xl text-white pt-5 text-center">Message From Principal</h3>
+        </div>
+
+        <div class="headTeacher grid-cols-2 gap-x-7  flex p-5 sm:grid-rows-2 md:grid-rows-2 ">
+            <div class="img lg:px-12 sm:px-2" ><img src="src/img/headteacher/headteacher.jpeg" alt="Principal of Pokhariya rounded-md">
                 <div class="bg-green-700 text-white text-center">Khem Raj Bhattrai
                 </div>
 
             </div>
 
             <div class="bg-fuchsia-200 pl-30 headsirDiscription ">
-                <p class="p-10 text-center text-gray-600 text-">Our goal is to make education free and effective to every children of Nepal And we believes,Good education creates good youth and good youth build up a good and prosper nation</p>
-                <button class="bg-green-400 text-white hover:text-green-300 hover:bg-yellow-400 rounded">Read More</button>
+                <p class="lg:p-10  sm:[ px-10 pt-10 ] sm:pb-5 text-center text-blue-600 ">Our goal is to make education free and effective to every children of Nepal And we believes,Good education creates good youth and good youth build up a good and prosper nation</p>
+                <div class="text-center sm:pb-0">
+                    <button class="bg-green-400   text-white hover:text-orange-600 hover:bg-blue-500 rounded"><h3 class="px-5">Read More</h3></button>
+                </div>
             </div>
 
 
