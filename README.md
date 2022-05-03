@@ -7,7 +7,7 @@ Installation{
 }
 
 
-site-url--> https://bishal-241.github.io/mySchool/src
+site-url--> https://bishal-241.github.io/mySchool
 
 
-Check netlify hosting :   pokhariyaschool.netlify.app
+Check netlify hosting :   pokhariyaschool.netlify.app,learn-nepal.netlify.app
